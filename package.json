@@ -1,0 +1,25 @@
+{
+  "name": "codingcamp-150925-kkarimaz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkarimaz/CodingCamp-150925-kkarimaz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkarimaz/CodingCamp-150925-kkarimaz/issues"
+  },
+  "homepage": "https://github.com/kkarimaz/CodingCamp-150925-kkarimaz#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "@tailwindcss/postcss": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}
