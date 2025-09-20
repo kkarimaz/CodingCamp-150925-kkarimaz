@@ -26,6 +26,7 @@ document.getElementById("todo-form").onsubmit = function(e) {
   e.preventDefault();
   const task = document.getElementById("task").value.trim();
   const dueDate = document.getElementById("due-date").value;
+  // Validasi input
   if (!task) {
     alert("Task wajib diisi!");
     return;
