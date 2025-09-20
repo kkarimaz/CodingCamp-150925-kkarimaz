@@ -55,3 +55,8 @@ filterInput.oninput = function() {
 document.querySelector("form").insertAdjacentElement("afterend", filterInput);
 
 renderTodos();
+
+document.querySelector('.w-28.justify-center').onclick = function() {
+  todos.length = 0; // hapus semua todo
+  renderTodos();
+};
